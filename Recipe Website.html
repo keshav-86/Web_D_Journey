@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)http://127.0.0.1:5500/Recipe%20Project/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    
+  <link rel="stylesheet" href="./Recipe Website_files/style.css"></head>
+  <body>
+    <div class="container">
+        <header>
+      <div class="navcontainer">
+        <nav>
+          <ul id="navList">
+            <li>
+              <p id="navlogo">Recipe Website</p>
+            </li>
+            <li>
+              <div id="navitem">
+                <a href="http://127.0.0.1:5500/Recipe%20Project/index.html#">Home</a>
+                <a href="http://127.0.0.1:5500/Recipe%20Project/index.html#">Contact</a>
+                <a href="http://127.0.0.1:5500/Recipe%20Project/index.html#">About us</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+        <div class="contentbox">
+            <!--Item 1 -- -->
+             <section>
+                <div class="item">
+                    <div class="leftbox">
+                        <!-- heading -->
+                         <h2>Burfi</h2>
+                         <h2>Ingredients</h2>
+                         <ul class="ingbox">
+                            <li>Milk</li>
+                            <li>pistachios</li>
+                            <li>Sugar</li>
+                            <li>cardamom</li>
+                            <li>Ghee</li>
+                         </ul>
+                         <h2>Recipe</h2>
+                         <ol class="recbox">
+                            <li>Firstly, in a bowl take 2½ cup milk powder, ¾ cup sugar and 1 cup milk.</li>
+                            <li>whisk and mix well until everything is well combined.</li>
+                            <li>Also add ¼ cup ghee and mix well on low flame.</li>
+                            <li>The mixture will hold the shape and starts to separate the pan after 10 minutes.</li>
+                            <li>Top with few chopped pistachios and cut with sharp knife. </li>
+                         </ol>
+                         </div>
+                    <div class="rightbox">
+                        <img src="./Recipe Website_files/image.png">
+                        <div class="overlay">
+                          <span>Click here to Buy</span>
+                        </div>
+                    </div>
+                </div>
+              <br>
+            <br>
+      
+                <div class="item">
+                 <div class="leftbox">
+                        <!-- heading -->
+                         <h2>Gulaab Jamun</h2>
+                         <h2>Ingredients</h2>
+                         <ul class="ingclass">
+                            <li>Flour</li>
+                            <li>Baking Powder</li>
+                            <li>Sugar</li>
+                            <li>cardamom</li>
+                            <li>Oil</li>
+                         </ul>
+                         <h2 id="">Recipe</h2>
+                         <ol class="recbox">
+                            <li>Combine sugar and water in a pan and bring to a boil to create the syrup.</li>
+                            <li>In a mixing bowl, combine flour, paneer, sooji, Nestlé MILKMAID</li>
+                            <li>Divide the dough into 30-35 portions and gently shape them into round balls.</li>
+                            <li>Heat oil on low flame and fry the balls until they turn golden brown.</li>
+                            <li>Transfer the fried Gulab Jamuns into the cooled sugar syrup</li>
+                          </ol>
+                        </div>
+                        <div class="rightbox">
+                        <img src="./Recipe Website_files/image copy.png">
+                        <div class="overlay">
+                          <span>Click here to Buy</span>
+                        </div>
+                    </div>
+                        </div>
+                      </section></div>
+                    
+                  </main></div>
+                
+                <footer>
+        <div class="footerbox">
+            <p>
+                Copyright © Recipe Website Pvt Ltd 204101 All Right Reserved
+            </p>
+        </div>
+    </footer>
+    
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
